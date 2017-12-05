@@ -1,0 +1,34 @@
+    $(".foodG").show();
+    $(".waterG").show();
+    $(".roomG").show();
+    $(".restG").show();
+$(".allShow").click(function(){
+    $(".foodG").show();
+    $(".waterG").show();
+    $(".roomG").show();
+    $(".restG").show();
+});
+$(".foodShow").click(function(){
+    $(".foodG").show();
+    $(".waterG").hide();
+    $(".roomG").hide();
+    $(".restG").hide();
+});
+$(".roomShow").click(function(){
+    $(".foodG").hide();
+    $(".waterG").hide();
+    $(".roomG").show();
+    $(".restG").hide();
+});
+$(".waterShow").click(function(){
+    $(".foodG").hide();
+    $(".waterG").show();
+    $(".roomG").hide();
+    $(".restG").hide();
+});
+$(".restShow").click(function(){
+    $(".foodG").hide();
+    $(".waterG").hide();
+    $(".roomG").hide();
+    $(".restG").show();
+});
